@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/carbon--calculation.svg" type="image/x-icon">    
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IMC - Lading Page</title>
+</head>
+<body>
+
+     <div class="container">
+        <div id="left-side">
+            <img src="./image/dietician-7649978_1280.png" alt="">
+        </div>
+        <div id="rigth-side">
+            <div class="box-calculator">
+                <div class="tittle">Calculadora - IMC</div>
+                <div class="input">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="input">
+                    <label>Peso em Kg: </label>
+                    <input type="number" name="nome" id="peso">
+                </div>
+                <div class="input">
+                    <label>Altura em metros: </label>
+                    <input type="number" name="altura" id="altura">
+                </div>
+
+
+                <!-- botao de calcular -->
+                <div id="btn">
+                    <button id="calcular">Calcular</button>
+                </div>
+
+
+                <!-- Resultado -->
+                <div class="hidden" id="resultado" >
+                    <span id="value"></span>
+                </div>
+            </div> 
+        </div>
+     </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
